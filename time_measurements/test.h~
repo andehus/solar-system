@@ -1,0 +1,7 @@
+class test{
+ private:
+  int a;
+ public:
+  int b;
+  int get();
+};

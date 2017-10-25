@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage[latin1]{inputenc}
+\usepackage[norsk]{babel}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\title{Project 3 - Fys3150}
+\author{Anders Huse Pedersen}
+\begin{document}
+\section*{abstract}
+The orbit of a planet is an ellipse with the Sun at one of the two foci. Using the method from Euler and Verlet, we can perform a decent simulation of this system, but the algorithm's have their advantages and disadvantages. It turns out ... so the conclusion is ...
+\section{Solar system}
+The solar system is the gravitationally bound system compromising the Sun and the objects that orbit it either directly or indirectly. Planets and smaller solar system bodies are said to directly orbitting the Sun while moons are said to indirectly orbitting the Sun.
+According to kepler's law, each object travels along an ellipse with the Sun at on focus. On an elliptic orbit, a body's distance from the Sun varies over the course of its year. A body's closest approach to the Sun is called perihelion, while the it's most distant point from the Sun is called its aphelion.
+\subsection{Celestial mechanics}
+Celestial mechanics is the branch of astronomy that deals with the motions of celestial objects. The basic equations which govern the solar system is are rather simple, a set of coupled equations that codify Newton's law of motion due to the gravitational force. In the first part of this project we'll concider a simplyfied two-body system where the earth is the only planet orbiting the Sun. Gravity is the only force in this problem and Newton's law of gravitation is given by a force:
+\begin{align*}
+  F_G &= \frac{GM_{\astrosun}m_{\earth}}{r^2}\\
+\end{align*}
+where G is the gravitational force, r is the distance between the Earth and the Sun, $M_{\astrosun}$ is the mass of the Sun and $m_{\earth}$ is the mass of the Earth. Since $M_{\astrosun} \gg m_{\earth}$, we're neglecting the motion of the Sun. We also assume that the motion of the Earth around the Sun is co-planar using the xy-plane.
+According to Newton's second law of motion (using x,y as the component of the force):
+\begin{align*}
+  \frac{d^2x}{dt^2} &= \frac{F_{G,x}}{m_{\earth}}\\
+  \frac{d^2y}{dt^2} &= \frac{F_{G,y}}{m_{\earth}}\\
+\end{align*}
+For practical reasons we're measuring distance in AU (Astronomical Unit), masses in $M_{\astrosun}$ and time in years.
+Since the orbit of the Earth around the Sun is almost circular we also have the relation:
+\begin{align*}
+  F_{G} &= \frac{M_{\earth}v^2}{r} = \frac{GM_{\astrosun}m_{\earth}}{r^2}\\
+\end{align*}
+where v is the velocity of the Earth.
+Using simple algebra on this equation will give an expression for G, which is useful:
+\begin{align*}
+  v^2 r &= GM_{\astrosun} = 4\pi^2 AU^3/yr^2\\
+\end{align*}
+We can modify our equations by multiplying with $r cos\theta/r\to x_{rel}/r$:
+\begin{align*}
+  F_{G,x} &= \frac{GM_{\astrosun}m_{\earth} x_rel}{r^3}\\
+  F_{G,y} &= \frac{GM_{\astrosun}m_{\earth} y_rel}{r^3}\\
+\end{align*}
+We rewrite our equation for x in terms of two first order equations:
+\begin{align*}
+  x(t) &= x'(1)(t)\\
+  v(t) &= x'(2)(t)\\
+\end{align*}
+We want to discretize and solve this equation on an interval $\left[a,b\right]$:
+\begin{align*}
+  dt &= \frac{b-a}{N}
+\end{align*}
+\end{document}
+
