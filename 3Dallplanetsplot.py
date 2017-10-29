@@ -1,0 +1,49 @@
+import matplotlib.pyplot as plt
+import sys
+from mpl_toolkits.mplot3d import Axes3D
+filename = sys.argv
+print("Plotting data from: ",sys.argv[1])
+planet = {}
+planet_num = {}
+order = []
+#with open('vv.txt') as f:
+with open(sys.argv[1]) as f:
+    for i,line in enumerate(f):
+        line = line.rstrip()
+        data = line.split()
+        if i == 0:
+            for p,val in enumerate(data):
+                planet_num[val] = p
+                planet[p] = [] #"Earthx".list
+        else:
+            for p,val in enumerate(data):
+                planet[p].append(float(val))    
+
+fig = plt.figure()
+Axes3D = fig.gca(projection='3d')
+#Axes3D = fig.add_subplot(111, projection='3d')
+#Axes3D(fig)
+#Axes3D.plot(0,0,0,'ro',label='COM')
+#Axes3D.plot(0,0,0,'z',label="COM")
+Axes3D.plot(planet[planet_num["Sunx"]],planet[planet_num["Suny"]],planet[planet_num["Sunz"]],label='Sun')
+Axes3D.plot(planet[planet_num["Mercuryx"]],planet[planet_num["Mercuryy"]],planet[planet_num["Mercuryz"]],label='Mercury')
+Axes3D.plot(planet[planet_num["Venusx"]],planet[planet_num["Venusy"]],planet[planet_num["Venusz"]],label='Venus')
+Axes3D.plot(planet[planet_num["Earthx"]],planet[planet_num["Earthy"]],planet[planet_num["Earthz"]],label='Earth')
+Axes3D.plot(planet[planet_num["Marsx"]],planet[planet_num["Marsy"]],planet[planet_num["Marsz"]],label='Mars')
+Axes3D.plot(planet[planet_num["Jupiterx"]],planet[planet_num["Jupitery"]],planet[planet_num["Jupiterz"]],label='Jupiter')
+Axes3D.plot(planet[planet_num["Saturnx"]],planet[planet_num["Saturny"]],planet[planet_num["Saturnz"]],label='Saturn')
+Axes3D.plot(planet[planet_num["Uranusx"]],planet[planet_num["Uranusy"]],planet[planet_num["Uranusz"]],label='Uranus')
+Axes3D.plot(planet[planet_num["Neptunex"]],planet[planet_num["Neptuney"]],planet[planet_num["Neptunez"]],label='Neptune')
+Axes3D.plot(planet[planet_num["Plutox"]],planet[planet_num["Plutoy"]],planet[planet_num["Plutoz"]],label='Pluto')
+
+
+#Axes3D.axis([-1.5,1.5,-1.5,1.5])
+#Axes3D.axis([-1.5,1.5,-1.5,1.5])
+Axes3D.set_xlabel('x [AU]')
+Axes3D.set_ylabel('y [AU]')
+Axes3D.set_zlabel('z [AU]')
+#Axes3D.legend([label],['Velocity Verlet'])
+#plt.legend(loc=4)
+plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+#Axes3D.savefig('last_plot.png')
+plt.show()

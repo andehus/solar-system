@@ -4,7 +4,7 @@ eplanet = {}
 eplanet_num = {}
 eorder = []
 #with open('vv.txt') as f:
-with open('data.txt') as f:
+with open('euler.txt') as f:
     for i,line in enumerate(f):
         line = line.rstrip()
         data = line.split()
@@ -19,7 +19,7 @@ vplanet = {}
 vplanet_num = {}
 vorder = []
 #with open('vv.txt') as f:
-with open('vv.txt') as f:
+with open('verlet.txt') as f:
     for i,line in enumerate(f):
         line = line.rstrip()
         data = line.split()
@@ -34,10 +34,11 @@ with open('vv.txt') as f:
 
 fig = plt.figure()
 plt.plot(0,0,'ro')
-plt.plot(eplanet[eplanet_num["Earthx"]],eplanet[eplanet_num["Earthy"]])
-plt.plot(vplanet[vplanet_num["Earthx"]],vplanet[vplanet_num["Earthy"]])
+euler, = plt.plot(eplanet[eplanet_num["Earthx"]],eplanet[eplanet_num["Earthy"]],label="Euler's Forward")
+verlet, =plt.plot(vplanet[vplanet_num["Earthx"]],vplanet[vplanet_num["Earthy"]],label="Velocity Verlet")
 #plt.axis([-1.5,1.5,-1.5,1.5])
-plt.axis([-1.5,1.5,-1.5,1.5])
+#plt.axis([-1.5,1.5,-1.5,1.5])
 plt.xlabel('x')
 plt.ylabel('y')
+plt.legend([euler,verlet],['Eulers Forward','Velocity Verlet'])
 plt.show()

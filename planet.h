@@ -11,10 +11,15 @@ class Planet
   double distance;
   double pos[dim];
   double vel[dim];
+  double kEnergy;
+  double pEnergy;
 
   Planet();
-  Planet(const char *name, double mass,double distance,double x, double y, double z, double vx, double vy, double vz,bool nasa);
+  Planet(const char *name, double mass,double x, double y, double z, double vx, double vy, double vz,bool nasa);
   double  getDistance(Planet *other);
+  double KineticEnergy();
+  double PotentialEnergy(Planet *p, double G);
+  double AngularMomentum();
   void print();
 
 };

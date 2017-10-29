@@ -1,0 +1,41 @@
+import matplotlib.pyplot as plt
+from math import *
+import sys
+filename = sys.argv
+print("Plotting data from: ",sys.argv[1])
+tanlist = []
+t=[]
+k=[]
+p=[]
+tot =[]
+with open(sys.argv[1]) as f:
+    for i,line in enumerate(f):
+        if i is 0:
+            continue
+        line = line.rstrip()
+        data = line.split()
+        t.append(float(data[0]))
+        k.append(float(data[1]))
+        p.append(float(data[2]))
+        tot.append(float(data[1])+float(data[2]))
+fig = plt.figure()
+#plt.plot(t,tot,label='total energy')
+#plt.plot(t,p,label='pot energy')
+plt.plot(t,k,label='kin energy')
+#plt.axis([0.0,1.0,0.000059208,0.000059218])#plt.axis([-1.5,1.5,-1.5,1.5])
+#plt.axis([0.000058,0.000060,0.00010,0.00020])
+plt.xlabel('t [yr]')
+plt.ylabel('U [AU^2 M_sun/yr^2')
+#plt.legend([label],['Velocity Verlet'])
+plt.legend(loc=1)
+plt.savefig('last_plot.png')
+plt.show()
+#ke = 5.92176*(10**(-5))
+#print(ke)
+#ms = 2.0*(10**30)
+#au = 1.5*10**11
+#days =365
+#year = 3600*24*365 #in seconds
+#print("kinetic energy: ",ke*ms*au**2/(year**2))
+#pe = -0.000118435
+#print("potential energy: ", pe*au**2/(year**2))

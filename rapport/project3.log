@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.9)  23 OCT 2017 14:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.9)  29 OCT 2017 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -102,54 +102,531 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
-Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
-\symwasy=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
-(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
-) (./project3.aux)
+(/usr/share/texlive/texmf-dist/tex/generic/mathabx/mathabx.sty
+Package: mathabx 2003/07/29 v0.0 Non-standard LaTeX package mathabx
+\symmatha=\mathgroup4
+\symmathb=\mathgroup5
+\symmathx=\mathgroup6
+
+(/usr/share/texlive/texmf-dist/tex/generic/mathabx/mathabx.dcl
+LaTeX Font Info:    Redeclaring math symbol \cdotp on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \times on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \div on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \cdot on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \circ on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \ast on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \pm on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \mp on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \diamond on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \bullet on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \star on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \amalg on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \equiv on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \sim on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \approx on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \simeq on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \asymp on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \neg on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \ll on input line 136.
+LaTeX Font Info:    Redeclaring math symbol \gg on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \vdash on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \dashv on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \flat on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \natural on input line 159.
+LaTeX Font Info:    Redeclaring math symbol \sharp on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \infty on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \propto on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \dagger on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \smile on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \frown on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \setminus on input line 218.
+LaTeX Font Info:    Redeclaring math symbol \mid on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \forall on input line 279.
+LaTeX Font Info:    Redeclaring math symbol \partial on input line 281.
+LaTeX Font Info:    Redeclaring math symbol \exists on input line 284.
+LaTeX Font Info:    Redeclaring math symbol \emptyset on input line 288.
+LaTeX Font Info:    Redeclaring math symbol \top on input line 290.
+LaTeX Font Info:    Redeclaring math symbol \bot on input line 291.
+LaTeX Font Info:    Redeclaring math symbol \perp on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \in on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \owns on input line 300.
+LaTeX Font Info:    Redeclaring math symbol \cap on input line 312.
+LaTeX Font Info:    Redeclaring math symbol \cup on input line 313.
+LaTeX Font Info:    Redeclaring math symbol \uplus on input line 314.
+LaTeX Font Info:    Redeclaring math symbol \sqcap on input line 315.
+LaTeX Font Info:    Redeclaring math symbol \sqcup on input line 316.
+LaTeX Font Info:    Redeclaring math symbol \wedge on input line 318.
+LaTeX Font Info:    Redeclaring math symbol \vee on input line 320.
+LaTeX Font Info:    Redeclaring math symbol \subset on input line 344.
+LaTeX Font Info:    Redeclaring math symbol \supset on input line 345.
+LaTeX Font Info:    Redeclaring math symbol \subseteq on input line 348.
+LaTeX Font Info:    Redeclaring math symbol \supseteq on input line 349.
+LaTeX Font Info:    Redeclaring math symbol \sqsubseteq on input line 380.
+LaTeX Font Info:    Redeclaring math symbol \sqsupseteq on input line 381.
+LaTeX Font Info:    Redeclaring math symbol \triangleleft on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \triangleright on input line 409.
+LaTeX Font Info:    Redeclaring math symbol \leq on input line 439.
+LaTeX Font Info:    Redeclaring math symbol \geq on input line 441.
+LaTeX Font Info:    Redeclaring math symbol \prec on input line 498.
+LaTeX Font Info:    Redeclaring math symbol \succ on input line 499.
+LaTeX Font Info:    Redeclaring math symbol \preceq on input line 506.
+LaTeX Font Info:    Redeclaring math symbol \succeq on input line 507.
+LaTeX Font Info:    Redeclaring math symbol \leftarrow on input line 540.
+LaTeX Font Info:    Redeclaring math symbol \rightarrow on input line 542.
+LaTeX Font Info:    Redeclaring math symbol \nwarrow on input line 546.
+LaTeX Font Info:    Redeclaring math symbol \nearrow on input line 547.
+LaTeX Font Info:    Redeclaring math symbol \swarrow on input line 548.
+LaTeX Font Info:    Redeclaring math symbol \searrow on input line 549.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrow on input line 550.
+LaTeX Font Info:    Redeclaring math symbol \mapstochar on input line 557.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoonup on input line 560.
+LaTeX Font Info:    Redeclaring math symbol \rightharpoonup on input line 561.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoondown on input line 562.
+
+LaTeX Font Info:    Redeclaring math symbol \rightharpoondown on input line 563
+.
+LaTeX Font Info:    Redeclaring math symbol \Leftarrow on input line 575.
+LaTeX Font Info:    Redeclaring math symbol \Rightarrow on input line 576.
+LaTeX Font Info:    Redeclaring math symbol \Leftrightarrow on input line 579.
+LaTeX Font Info:    Redeclaring math symbol \rhook on input line 612.
+LaTeX Font Info:    Redeclaring math symbol \lhook on input line 613.
+LaTeX Font Info:    Redeclaring math symbol \oplus on input line 658.
+LaTeX Font Info:    Redeclaring math symbol \ominus on input line 659.
+LaTeX Font Info:    Redeclaring math symbol \otimes on input line 661.
+LaTeX Font Info:    Redeclaring math symbol \odot on input line 663.
+LaTeX Font Info:    Redeclaring math symbol \oslash on input line 675.
+\mayacnter=\count100
+\mayacnta=\count101
+\mayacntb=\count102
+\mayacntc=\count103
+\mayawidth=\dimen113
+LaTeX Font Info:    Redeclaring math symbol \intop on input line 753.
+LaTeX Font Info:    Redeclaring math symbol \ointop on input line 760.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 842.
+LaTeX Info: Redefining \{ on input line 846.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 848.
+LaTeX Info: Redefining \} on input line 852.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 858.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 859.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 863.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 865.
+LaTeX Font Info:    Redeclaring math delimiter \uparrow on input line 868.
+LaTeX Font Info:    Redeclaring math delimiter \downarrow on input line 869.
+LaTeX Font Info:    Redeclaring math delimiter \updownarrow on input line 870.
+LaTeX Font Info:    Redeclaring math delimiter \Uparrow on input line 871.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 872.
+LaTeX Font Info:    Redeclaring math delimiter \Updownarrow on input line 873.
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 880.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 881.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 882.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 883.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 884.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 885.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 903.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 905.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 907.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 909.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 944.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 946.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count104
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen116
+\captionmargin@=\dimen117
+\captionwidth=\dimen118
+\caption@tempdima=\dimen119
+\caption@indent=\dimen120
+\caption@parindent=\dimen121
+\caption@hangindent=\dimen122
+)
+\c@ContinuedFloat=\count105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count106
+\c@subtable=\count107
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count108
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(./project3.aux)
 \openout1 = `project3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Try loading font information for U+wasy on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
-(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
-File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
-) [1
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen123
+\scratchbox=\box30
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen124
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks25
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./project3.aux) ) 
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+Overfull \hbox (7.89124pt too wide) in paragraph at lines 110--110
+[] 
+ []
+
+[4] <plots/euler_v_2pi_h10000_t3.png, id=24, 462.528pt x 346.896pt>
+File: plots/euler_v_2pi_h10000_t3.png Graphic file (type png)
+
+<use plots/euler_v_2pi_h10000_t3.png>
+Package pdftex.def Info: plots/euler_v_2pi_h10000_t3.png used on input line 127
+.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/verlet_v_2pi_h10000_t3.png, id=26, 462.528pt x 346.896pt>
+File: plots/verlet_v_2pi_h10000_t3.png Graphic file (type png)
+
+<use plots/verlet_v_2pi_h10000_t3.png>
+Package pdftex.def Info: plots/verlet_v_2pi_h10000_t3.png used on input line 13
+2.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/compare_h1.png, id=27, 462.528pt x 346.896pt>
+File: plots/compare_h1.png Graphic file (type png)
+
+<use plots/compare_h1.png>
+Package pdftex.def Info: plots/compare_h1.png used on input line 142.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/compare_h05.png, id=28, 462.528pt x 346.896pt>
+File: plots/compare_h05.png Graphic file (type png)
+
+<use plots/compare_h05.png>
+Package pdftex.def Info: plots/compare_h05.png used on input line 147.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/compare_h005.png, id=29, 462.528pt x 346.896pt>
+File: plots/compare_h005.png Graphic file (type png)
+
+<use plots/compare_h005.png>
+Package pdftex.def Info: plots/compare_h005.png used on input line 155.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/compare_h005_zoom.png, id=30, 462.528pt x 346.896pt>
+File: plots/compare_h005_zoom.png Graphic file (type png)
+
+<use plots/compare_h005_zoom.png>
+Package pdftex.def Info: plots/compare_h005_zoom.png used on input line 160.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/compare_h0005.png, id=31, 462.528pt x 346.896pt>
+File: plots/compare_h0005.png Graphic file (type png)
+
+<use plots/compare_h0005.png>
+Package pdftex.def Info: plots/compare_h0005.png used on input line 169.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/compare_h0005_zoom.png, id=32, 462.528pt x 346.896pt>
+File: plots/compare_h0005_zoom.png Graphic file (type png)
+
+<use plots/compare_h0005_zoom.png>
+Package pdftex.def Info: plots/compare_h0005_zoom.png used on input line 174.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+ [5 <./plots/euler_v_2pi_h10000_t3.png> <./plots/verlet_v_2pi_h10000_t3.png> <.
+/plots/compare_h1.png> <./plots/compare_h05.png>] <plots/compare_h00005.png, id
+=41, 462.528pt x 346.896pt>
+File: plots/compare_h00005.png Graphic file (type png)
+
+<use plots/compare_h00005.png>
+Package pdftex.def Info: plots/compare_h00005.png used on input line 183.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/compare_h00005_zoom.png, id=42, 462.528pt x 346.896pt>
+File: plots/compare_h00005_zoom.png Graphic file (type png)
+
+<use plots/compare_h00005_zoom.png>
+Package pdftex.def Info: plots/compare_h00005_zoom.png used on input line 188.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+ [6 <./plots/compare_h005.png> <./plots/compare_h005_zoom.png> <./plots/compare
+_h0005.png> <./plots/compare_h0005_zoom.png> <./plots/compare_h00005.png> <./pl
+ots/compare_h00005_zoom.png>]
+<plots/euler_energysystem100yr.png, id=52, 766.062pt x 348.3414pt>
+File: plots/euler_energysystem100yr.png Graphic file (type png)
+
+<use plots/euler_energysystem100yr.png>
+Package pdftex.def Info: plots/euler_energysystem100yr.png used on input line 1
+97.
+(pdftex.def)             Requested size: 345.0pt x 156.87975pt.
+
+<plots/verlet_energysystem100yr.png, id=53, 770.3982pt x 346.896pt>
+File: plots/verlet_energysystem100yr.png Graphic file (type png)
+
+<use plots/verlet_energysystem100yr.png>
+Package pdftex.def Info: plots/verlet_energysystem100yr.png used on input line 
+202.
+(pdftex.def)             Requested size: 345.0pt x 155.35011pt.
+
+<plots/angular_both.png, id=54, 797.1381pt x 378.6948pt>
+File: plots/angular_both.png Graphic file (type png)
+
+<use plots/angular_both.png>
+Package pdftex.def Info: plots/angular_both.png used on input line 207.
+(pdftex.def)             Requested size: 345.0pt x 163.8988pt.
+ [7 <./plots/euler_energysystem100yr.png> <./plots/verlet_energysystem100yr.png
+>]
+<plots/escape_v2p8pi.png, id=61, 462.528pt x 346.896pt>
+File: plots/escape_v2p8pi.png Graphic file (type png)
+
+<use plots/escape_v2p8pi.png>
+Package pdftex.def Info: plots/escape_v2p8pi.png used on input line 228.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/escape_v3p0pi.png, id=62, 462.528pt x 346.896pt>
+File: plots/escape_v3p0pi.png Graphic file (type png)
+
+<use plots/escape_v3p0pi.png>
+Package pdftex.def Info: plots/escape_v3p0pi.png used on input line 233.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+ [8 <./plots/angular_both.png>]
+<plots/beta_2p5.png, id=67, 462.528pt x 346.896pt>
+File: plots/beta_2p5.png Graphic file (type png)
+ <use plots/beta_2p5.png>
+Package pdftex.def Info: plots/beta_2p5.png used on input line 248.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/beta_2p9.png, id=68, 462.528pt x 346.896pt>
+File: plots/beta_2p9.png Graphic file (type png)
+ <use plots/beta_2p9.png>
+Package pdftex.def Info: plots/beta_2p9.png used on input line 253.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/beta_2p99.png, id=69, 462.528pt x 346.896pt>
+File: plots/beta_2p99.png Graphic file (type png)
+ <use plots/beta_2p99.png>
+Package pdftex.def Info: plots/beta_2p99.png used on input line 262.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/beta_3.png, id=70, 462.528pt x 346.896pt>
+File: plots/beta_3.png Graphic file (type png)
+ <use plots/beta_3.png>
+Package pdftex.def Info: plots/beta_3.png used on input line 267.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+[9 <./plots/escape_v2p8pi.png> <./plots/escape_v3p0pi.png> <./plots/beta_2p5.pn
+g> <./plots/beta_2p9.png>] <plots/jupiter.png, id=82, 462.528pt x 346.896pt>
+File: plots/jupiter.png Graphic file (type png)
+
+<use plots/jupiter.png>
+Package pdftex.def Info: plots/jupiter.png used on input line 278.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/jupiter_m0p001.png, id=83, 462.528pt x 346.896pt>
+File: plots/jupiter_m0p001.png Graphic file (type png)
+
+<use plots/jupiter_m0p001.png>
+Package pdftex.def Info: plots/jupiter_m0p001.png used on input line 283.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/jupiter_m0p01.png, id=84, 462.528pt x 346.896pt>
+File: plots/jupiter_m0p01.png Graphic file (type png)
+
+<use plots/jupiter_m0p01.png>
+Package pdftex.def Info: plots/jupiter_m0p01.png used on input line 291.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/jupiter_m1p0.png, id=85, 462.528pt x 346.896pt>
+File: plots/jupiter_m1p0.png Graphic file (type png)
+
+<use plots/jupiter_m1p0.png>
+Package pdftex.def Info: plots/jupiter_m1p0.png used on input line 296.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+ [10 <./plots/beta_2p99.png> <./plots/beta_3.png> <./plots/jupiter.png> <./plot
+s/jupiter_m0p001.png>]
+<plots/threebody0p001.png, id=93, 462.528pt x 346.896pt>
+File: plots/threebody0p001.png Graphic file (type png)
+
+<use plots/threebody0p001.png>
+Package pdftex.def Info: plots/threebody0p001.png used on input line 305.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/threebody0p01.png, id=94, 462.528pt x 346.896pt>
+File: plots/threebody0p01.png Graphic file (type png)
+
+<use plots/threebody0p01.png>
+Package pdftex.def Info: plots/threebody0p01.png used on input line 310.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/allplanets.png, id=95, 462.528pt x 346.896pt>
+File: plots/allplanets.png Graphic file (type png)
+
+<use plots/allplanets.png>
+Package pdftex.def Info: plots/allplanets.png used on input line 319.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/allplanetszoom.png, id=96, 462.528pt x 346.896pt>
+File: plots/allplanetszoom.png Graphic file (type png)
+
+<use plots/allplanetszoom.png>
+Package pdftex.def Info: plots/allplanetszoom.png used on input line 324.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+<plots/allplanets3D.png, id=97, 516.0078pt x 349.7868pt>
+File: plots/allplanets3D.png Graphic file (type png)
+
+<use plots/allplanets3D.png>
+Package pdftex.def Info: plots/allplanets3D.png used on input line 333.
+(pdftex.def)             Requested size: 172.5pt x 116.92978pt.
+
+<plots/allplanets3Dbig.png, id=98, 1156.32pt x 608.5134pt>
+File: plots/allplanets3Dbig.png Graphic file (type png)
+
+<use plots/allplanets3Dbig.png>
+Package pdftex.def Info: plots/allplanets3Dbig.png used on input line 338.
+(pdftex.def)             Requested size: 172.5pt x 90.77167pt.
+ [11 <./plots/jupiter_m0p01.png> <./plots/jupiter_m1p0.png> <./plots/threebody0
+p001.png> <./plots/threebody0p01.png> <./plots/allplanets.png> <./plots/allplan
+etszoom.png>] [12 <./plots/allplanets3D.png> <./plots/allplanets3Dbig.png>] (./
+project3.aux) ) 
 Here is how much of TeX's memory you used:
- 1505 strings out of 493013
- 17606 string characters out of 6135683
- 83286 words of memory out of 5000000
- 5088 multiletter control sequences out of 15000+600000
- 5945 words of font info for 23 fonts, out of 8000000 for 9000
+ 4505 strings out of 493013
+ 65726 string characters out of 6135683
+ 132384 words of memory out of 5000000
+ 7960 multiletter control sequences out of 15000+600000
+ 13506 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,11n,23p,503b,138s stack positions out of 5000i,500n,10000p,200000b,80000s
-</us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/w
-asy2-ps/wasy10.pfb>
-Output written on project3.pdf (2 pages, 79320 bytes).
+ 39i,15n,39p,739b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type
+1/matha10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/m
+atha7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha
+9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mathb7.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb>
+Output written on project3.pdf (12 pages, 1133141 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 166 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

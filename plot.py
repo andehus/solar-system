@@ -1,10 +1,13 @@
 import matplotlib.pyplot as plt
+import sys
 from mpl_toolkits.mplot3d import Axes3D
+filename = sys.argv
+print("Plotting data from: ",sys.argv[1])
 planet = {}
 planet_num = {}
 order = []
 #with open('vv.txt') as f:
-with open('vv.txt') as f:
+with open(sys.argv[1]) as f:
     for i,line in enumerate(f):
         line = line.rstrip()
         data = line.split()
@@ -31,9 +34,13 @@ print(planet_num.keys())
 #print(planet[4])
 fig = plt.figure()
 plt.plot(0,0,'ro')
-plt.plot(planet[planet_num["Earthx"]],planet[planet_num["Earthy"]])
+#label,=plt.plot(planet[planet_num["Earthx"]],planet[planet_num["Earthy"]])
+plt.plot(planet[planet_num["Earthx"]],planet[planet_num["Earthy"]],label='Velocity Verlet')
 #plt.axis([-1.5,1.5,-1.5,1.5])
-plt.axis([-1.5,1.5,-1.5,1.5])
-plt.xlabel('x')
-plt.ylabel('y')
+#plt.axis([-1.5,1.5,-1.5,1.5])
+plt.xlabel('x [AU]')
+plt.ylabel('y [AU]')
+#plt.legend([label],['Velocity Verlet'])
+plt.legend(loc=1)
+plt.savefig('last_plot.png')
 plt.show()

@@ -4,10 +4,10 @@ Planet::Planet()
   mass = 0.0;
 }
 /* constructor */
-Planet::Planet(const char *name,double mass, double distance, double x, double y, double z, double vx, double vy, double vz, bool nasa)
+Planet::Planet(const char *name,double mass, double x, double y, double z, double vx, double vy, double vz, bool nasa)
 {
   this->mass = mass;
-  this->distance = distance;
+  //  this->distance = distance;
   pos[0] = x;
   pos[1] = y;
   pos[2] = z;
@@ -47,7 +47,23 @@ double Planet::getDistance(Planet *other)
     xx = x1-x2;
     yy = y1-y2;
     zz = z1-z2;
-
     return sqrt(xx*xx + yy*yy + zz*zz);
 }
-
+/* Calculate/returns the kinetic energy
+ * for this planet: 1/2mv^2 = 1/2m(vx2+vy2+vz2)*/
+double Planet::KineticEnergy()
+{
+  return 0.5*this->mass*(this->vel[0]*this->vel[0]+this->vel[1]*this->vel[1]+this->vel[2]*this->vel[2]);
+}
+/* Calculate/returns the potential energy
+ * for this planet: mGd */
+double Planet::PotentialEnergy(Planet *p, double G)
+{
+  //return -G*this->mass*p->mass/this->getDistance(p);
+  return -G*this->mass*p->mass/(this->getDistance(p));
+}
+double Planet::AngularMomentum()
+{
+  double l2 = mass*(pow(pos[1]*vel[2]-pos[2]*vel[1],2.0)+pow(pos[0]*vel[2]-pos[2]*vel[0],2.0)+pow(pos[0]*vel[1]-pos[1]*vel[0],2.0));
+  return sqrt(l2);
+}
